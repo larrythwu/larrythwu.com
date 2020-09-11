@@ -1,0 +1,22 @@
+img {
+  width: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #343a40;
+}
+
+.block {
+  display: block;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.contact-info {
+  margin-left: 16px;
+  margin-top: 50px;
+  width: 300px;
+}

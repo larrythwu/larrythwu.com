@@ -1,0 +1,28 @@
+h3 {
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+strong {
+  font-size: 18px;
+  color: #343a40;
+}
+
+a {
+  color: #343a40;
+}
+
+.bio {
+  max-width: 60em;
+}

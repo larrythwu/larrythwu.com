@@ -1,0 +1,43 @@
+pre {
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.Resume{
+  text-align: left;
+  max-width: 70em;
+}
+.title{
+  text-decoration:  underline;
+
+}
+
+.resume{
+  text-decoration: underline;
+  text-align: left;
+}
+
+.skills{
+  text-align: left;
+}
+
+.skill{
+  display: inline-block;
+  margin-left: 16px;
+  text-align: left;
+}
+
+strong{
+  text-align: left;
+}
+
+ul{
+  text-align: left;
+}

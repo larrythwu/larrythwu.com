@@ -1,0 +1,13 @@
+strong {
+  font-size: 20px;
+}
+
+a {
+  color: #000000;
+  font-size: 17px;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
