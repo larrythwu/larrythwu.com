@@ -19,7 +19,7 @@ export default function Projects() {
           </p>
           <p className="card-text">
             Online issue tracking application with user authentication, account
-            synchronous.
+            synchronization.
           </p>
           <a href="#" class="btn btn-primary">
             Go to Webpage
@@ -104,7 +104,7 @@ export default function Projects() {
           <p className="card-text">
             A two-player arcade game written in C and compiled to ARM assembly.
             The game is run on an ARMv7 DE1-SoC board, controlled by the PS/2
-            keyboard, and displayed on a VGA.
+            keyboard, and displayed on a VGA.å
           </p>
           <a href="#" class="btn btn-primary">
             More Detail
