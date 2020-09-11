@@ -16,7 +16,7 @@ export default function NavBar() {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/resume">
+          <a class="nav-link" href="/Homepage/resume">
             Resume
           </a>
         </li>
