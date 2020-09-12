@@ -42,7 +42,11 @@ export default function Projects() {
             Training a TensorFlow.js model in real-time that can recognize the
             digit that is drawn on the canvas.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a
+            href="https://larrythwu.github.io/digit_recognizer/"
+            target="_blank"
+            class="btn btn-primary"
+          >
             Go to Webpage
           </a>
         </div>
@@ -64,7 +68,11 @@ export default function Projects() {
             the destination (red square) using Dijkstra's algorithm, which
             progression is visualized.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a
+            href="https://larrythwu.github.io/interactive_path_finding/"
+            target="_blank"
+            class="btn btn-primary"
+          >
             Go to Webpage
           </a>
         </div>
@@ -84,7 +92,11 @@ export default function Projects() {
           <p className="card-text">
             Visualize the sorting strategies of different algorithms.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a
+            href="https://larrythwu.github.io/Sorting-Visualization/"
+            target="_blank"
+            class="btn btn-primary"
+          >
             Go to Webpage
           </a>
         </div>
