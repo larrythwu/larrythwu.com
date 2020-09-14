@@ -1,0 +1,15 @@
+.slideshow {
+  height: 1000px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.container-fluid {
+  width: auto;
+  display: inline-block;
+}
+
+Carousel.Item {
+  text-align: right;
+}

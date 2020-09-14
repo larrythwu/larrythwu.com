@@ -118,7 +118,7 @@ export default function Projects() {
             The game is run on an ARMv7 DE1-SoC board, controlled by the PS/2
             keyboard, and displayed on a VGA.å
           </p>
-          <a href="#" class="btn btn-primary">
+          <a href="projects/doomslayer" class="btn btn-primary">
             More Detail
           </a>
         </div>
@@ -141,7 +141,7 @@ export default function Projects() {
             are directly plugged into the FPGA general purpose pins, the
             keyboard acts as the pedestrian call button.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a href="/projects/trafficlight" class="btn btn-primary">
             More Detail
           </a>
         </div>
@@ -163,7 +163,28 @@ export default function Projects() {
             controlled by Arduino and the body is designed in Fusion360 and 3D
             printed.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a href="/projects/sumorobot" class="btn btn-primary">
+            More Detail
+          </a>
+        </div>
+        <div class="card-footer text-muted">Last updated 1 year ago</div>
+      </div>
+
+      <div className="card">
+        <div className="img-container">
+          <img
+            className="card-img-top"
+            src="https://image.flaticon.com/icons/png/512/2061/2061956.png"
+          />
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Mechanical Piston</h5>
+          <p className="tools">Machining</p>
+          <p className="card-text">
+            Machined from skretch as part of the traininf for the Basic
+            Machining Certificate course at George Brown College
+          </p>
+          <a href="/projects/piston" class="btn btn-primary">
             More Detail
           </a>
         </div>
