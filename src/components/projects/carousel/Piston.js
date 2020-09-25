@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
+
 import Piston1 from "./photos/piston1.jpg";
 import Piston2 from "./photos/piston2.jpg";
 import Piston3 from "./photos/piston3.jpg";
