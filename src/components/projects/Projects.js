@@ -21,7 +21,11 @@ export default function Projects() {
             Online issue tracking application with user authentication, account
             synchronization.
           </p>
-          <a href="bugtrackr.com" target="_blank" class="btn btn-primary">
+          <a
+            href="https://www.bugtrackr.com"
+            target="_blank"
+            class="btn btn-primary"
+          >
             Go to Webpage
           </a>
         </div>
