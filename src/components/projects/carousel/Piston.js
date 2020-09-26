@@ -21,18 +21,21 @@ export class Piston extends Component {
           >
             <Carousel.Item style={{ height: "auto" }}>
               <img
+                alt=""
                 style={{ "margin-right": 0, width: "500px" }}
                 src={Piston1}
               />
             </Carousel.Item>
             <Carousel.Item style={{ height: "auto" }}>
               <img
+                alt=""
                 style={{ "margin-right": 0, width: "500px" }}
                 src={Piston2}
               />
             </Carousel.Item>
             <Carousel.Item style={{ height: "auto" }}>
               <img
+                alt=""
                 style={{ "margin-right": 0, width: "500px" }}
                 src={Piston3}
               />

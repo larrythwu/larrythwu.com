@@ -16,73 +16,128 @@ export default function Paintings() {
   return (
     <div className="photo-container">
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo11} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo11}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Still Life, 2019</p>
         </div>
       </div>
 
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo1} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo1}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Hauling a Boat Ashore, 2018</p>
         </div>
       </div>
 
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo2} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo2}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Headphone Dog, 2019</p>
         </div>
       </div>
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo3} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo3}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Abstract Dog, 2018</p>
         </div>
       </div>
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo4} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo4}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Starry Night, 2019</p>
         </div>
       </div>
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo5} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo5}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Charles Darwin (Incomplete), 2020</p>
         </div>
       </div>
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo6} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo6}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Dream, 2019</p>
         </div>
       </div>
 
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo7} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo7}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Sunrise, 2020</p>
         </div>
       </div>
 
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo8} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo8}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Light House, 2019</p>
         </div>
       </div>
 
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo9} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo9}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Still Life, 2019</p>
         </div>
       </div>
 
       <div class="card" style={{ width: "700px" }}>
-        <img style={{ width: "700px" }} src={Photo10} alt="Card image cap" />
+        <img
+          alt=""
+          style={{ width: "700px" }}
+          src={Photo10}
+          alt="Card image cap"
+        />
         <div class="card-body" style={{ "text-align": "center" }}>
           <p class="card-text">Still Life, 2019</p>
         </div>

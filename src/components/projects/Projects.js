@@ -8,6 +8,8 @@ export default function Projects() {
       <div className="card">
         <div className="img-container">
           <img
+            alt=""
+            alt=""
             className="card-img-top"
             src="https://cdn.worldvectorlogo.com/logos/google-issue-tracker.svg"
           />
@@ -35,6 +37,8 @@ export default function Projects() {
       <div className="card">
         <div className="img-container">
           <img
+            alt=""
+            alt=""
             className="card-img-top"
             src="https://miro.medium.com/max/432/1*b4otA55Us-hoI57lqUfplA.png"
           />
@@ -60,6 +64,8 @@ export default function Projects() {
       <div className="card">
         <div className="img-container">
           <img
+            alt=""
+            alt=""
             className="card-img-top"
             src="https://cdn.vox-cdn.com/thumbor/pOMbzDvdEWS8NIeUuhxp23wi_cU=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19700731/googlemaps.png"
           />
@@ -86,6 +92,8 @@ export default function Projects() {
       <div className="card">
         <div className="img-container">
           <img
+            alt=""
+            alt=""
             className="card-img-top"
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///8AAAClpaUSEhKAgICBgYGYmJh9fX3j4+P8/Pzd3d3V1dXY2NgEBAQQEBDn5+csLCxMTEy8vLzt7e24uLjNzc2ioqKxsbGIiIgjIyN0dHQyMjLDw8M5OTljY2NISEiQkJBtbW1lZWVVVVWyBAN6AAAD9ElEQVR4nO3c21rqOhiF4URENlJQUcC9Tu//HieykaRNs/lpaEef8R2tA8qTdzZpWQaqFGOMMcYYY4wxxhhjjDHGGGOMMcbytVymvX6yupsPaiuKl3GecUp7e9a6eEw54l6Heso1WElX+zGt4o9YBYFa5xtvcsvjmOJn6muE8C3jkBNbH8e0jj4kApjwbtm7Oo7pKvqQd6xzKBCufbRDGUecmkCoPoLALl1LJUK1/vTdD+fduh+KhFBRiB+F+FGIH4X4UYgfhfhRiB+F+FGIH4X4UYgfhfhRiJ9I+Pjq2beopvV9i7ttEuFGp3eTjxBIILwVALWeZkR4Ewi/RMJNRoQ3gfBbJPzIiPAmEN70/hyORUKkdRj1laFyUNdSpZ7+DVJuiNv7YYtfXeBnGvwoxI9C/CjEj0L8KMSPQvwoxI9C/CjEj0L8KMSPQvwodDX70Wd3M8lnshMIn873bbu/FFEgfG5EeLH9NoGwGeDFfg1NoaOGgEVGlRnXoaP+X0vV9Pz7YdHp+yFYFOJHIX4U4kchfhTiRyF+FOJHIX4U4kchfhR2uuXDW/iPkgnC2dfLKvHJ31mbjH7HHfzTebxwuHvZQzOja6Lv/cBHgZdFC0eH13Xm+bJ/P0ce+l8XKxxGvt/lOv0K0j+kSOEfUL8r9XCnM5S6k2H8WNc7UeOEo9O7fQp/BxwucTfqzTj0+lzhtfFmq8b2gCsl7iiaT073EGOEJnAwySdM3PdeDIxD69dihHBovNF83Nw+/rlCtZgbx9aexbDQPIPzhcooTN7Zt4h1l5ugsALszDqMJIaExlX0ABT9HD8myc7+OLwWA0JzDQ6OH2ey3A+FO/vWAx6cRL/QBHbn85pVcKJ6heYULRa5xypsof1En9C8yOiuArcT1X8WPULrKtrNKbpv7L0v1gvNNVh0GbglFp6zWCu0pmi3gdu16CHWCaGA3rNYIxxhAZWamkRrLbqF1hps7flHSU11DdEptG70GMDSpxtjorqEcFN0Xw3RIQS7yJyaOi83VaEFRJmi+5xrsSKEXIPHXBO1LAQ+g785iCUhOLA0UXdEWzhCByo1K69FS2itwVnbYxVWJprCXgArE9UQ9mCK7rOIm5Nw0xdgaaLeVf4De4rus4iu0IGlidpHYIDYB6B3ot62PbaGqn3seF+AtcQYYJ59/EA/6f/0zokaswZz7eOHSv8qj4MYdZG5vO1Q+uZUZaLGTYQ2cLsek4VlYuRMb4enZV8utIixS7ktoOQcWsToa1VrQtnPv/+I8RfjXPv4oaRfizw8PyDlwfco98Nju5tGPz6L1jXG+su2pDH2/9EzxhhjjDHGGGOMMcYYY4wxxhgT9x9iOig4CH+VmAAAAABJRU5ErkJggg=="
           />
@@ -110,6 +118,7 @@ export default function Projects() {
       <div className="card">
         <div className="img-container">
           <img
+            alt=""
             className="card-img-top"
             src="https://img.icons8.com/ios/452/apple-arcade.png"
           />
@@ -132,6 +141,7 @@ export default function Projects() {
       <div className="card">
         <div className="img-container">
           <img
+            alt=""
             className="card-img-top"
             src="https://www.emoji.co.uk/files/mozilla-emojis/travel-places-mozilla/11775-vertical-traffic-light.png"
           />
@@ -155,6 +165,7 @@ export default function Projects() {
       <div className="card">
         <div className="img-container">
           <img
+            alt=""
             className="card-img-top"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJSzY9J6DOOcfD1VnnRmT6ED5D1PFgqqw9HA&usqp=CAU"
           />
@@ -177,6 +188,7 @@ export default function Projects() {
       <div className="card">
         <div className="img-container">
           <img
+            alt=""
             className="card-img-top"
             src="https://image.flaticon.com/icons/png/512/2061/2061956.png"
           />

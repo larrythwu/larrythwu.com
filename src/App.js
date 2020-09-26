@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/paintings" component={Paintings} />
         <Route exact path="/photography" component={Photography} />
-        <Contact />
+        <Route path="/" component={Contact} />
         <Route exact path="/projects/doomslayer" component={DoomSlayer} />
         <Route exact path="/projects/piston" component={Piston} />
         <Route exact path="/projects/sumorobot" component={SumoRobot} />

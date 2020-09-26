@@ -18,13 +18,25 @@ export default function DoomSlayer() {
           }}
         >
           <Carousel.Item style={{ height: "auto" }}>
-            <img style={{ "margin-right": 0, width: "500px" }} src={Piston1} />
+            <img
+              alt=""
+              style={{ "margin-right": 0, width: "500px" }}
+              src={Piston1}
+            />
           </Carousel.Item>
           <Carousel.Item style={{ height: "auto" }}>
-            <img style={{ "margin-right": 0, width: "500px" }} src={Piston2} />
+            <img
+              alt=""
+              style={{ "margin-right": 0, width: "500px" }}
+              src={Piston2}
+            />
           </Carousel.Item>
           <Carousel.Item style={{ height: "auto" }}>
-            <img style={{ "margin-right": 0, width: "500px" }} src={Piston3} />
+            <img
+              alt=""
+              style={{ "margin-right": 0, width: "500px" }}
+              src={Piston3}
+            />
           </Carousel.Item>
         </Carousel>
       </div>

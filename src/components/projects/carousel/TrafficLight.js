@@ -19,13 +19,25 @@ export default function TrafficLight() {
           }}
         >
           <Carousel.Item style={{ height: "auto" }}>
-            <img style={{ "margin-right": 0, width: "700px" }} src={Traffic1} />
+            <img
+              alt=""
+              style={{ "margin-right": 0, width: "700px" }}
+              src={Traffic1}
+            />
           </Carousel.Item>
           <Carousel.Item style={{ height: "auto" }}>
-            <img style={{ "margin-right": 0, width: "700px" }} src={Traffic2} />
+            <img
+              alt=""
+              style={{ "margin-right": 0, width: "700px" }}
+              src={Traffic2}
+            />
           </Carousel.Item>
           <Carousel.Item style={{ height: "auto" }}>
-            <img style={{ "margin-right": 0, width: "700px" }} src={Traffic3} />
+            <img
+              alt=""
+              style={{ "margin-right": 0, width: "700px" }}
+              src={Traffic3}
+            />
           </Carousel.Item>
         </Carousel>
       </div>

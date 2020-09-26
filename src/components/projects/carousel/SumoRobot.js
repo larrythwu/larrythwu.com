@@ -20,13 +20,25 @@ export class Piston extends Component {
             }}
           >
             <Carousel.Item style={{ height: "auto" }}>
-              <img style={{ "margin-right": 0, width: "500px" }} src={Sumo1} />
+              <img
+                alt=""
+                style={{ "margin-right": 0, width: "500px" }}
+                src={Sumo1}
+              />
             </Carousel.Item>
             <Carousel.Item style={{ height: "auto" }}>
-              <img style={{ "margin-right": 0, width: "500px" }} src={Sumo2} />
+              <img
+                alt=""
+                style={{ "margin-right": 0, width: "500px" }}
+                src={Sumo2}
+              />
             </Carousel.Item>
             <Carousel.Item style={{ height: "auto" }}>
-              <img style={{ "margin-right": 0, width: "500px" }} src={Sumo3} />
+              <img
+                alt=""
+                style={{ "margin-right": 0, width: "500px" }}
+                src={Sumo3}
+              />
             </Carousel.Item>
           </Carousel>
         </div>
