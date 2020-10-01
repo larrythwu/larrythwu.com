@@ -10,11 +10,11 @@ import Paintings from "./components/paintings/Paintings";
 import Photography from "./components/photography/Photography";
 import Contact from "./components/contact/Contact";
 
-import DoomSlayer from "./components/projects/carousel/DoomSlayer";
 import Piston from "./components/projects/carousel/Piston";
 import SumoRobot from "./components/projects/carousel/SumoRobot";
 import TrafficLight from "./components/projects/carousel/TrafficLight";
 import ECE297Map from "./components/projects/297/ECE297Map";
+import DoomSlayer from "./components/projects/DoomSlayer/DoomSlayer";
 
 function App() {
   return (
