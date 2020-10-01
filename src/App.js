@@ -14,6 +14,7 @@ import DoomSlayer from "./components/projects/carousel/DoomSlayer";
 import Piston from "./components/projects/carousel/Piston";
 import SumoRobot from "./components/projects/carousel/SumoRobot";
 import TrafficLight from "./components/projects/carousel/TrafficLight";
+import ECE297Map from "./components/projects/297/ECE297Map";
 
 function App() {
   return (
@@ -21,11 +22,12 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Contact} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/paintings" component={Paintings} />
         <Route exact path="/photography" component={Photography} />
-        <Route path="/" component={Contact} />
+        <Route exact path="/projects/mymap" component={ECE297Map} />
         <Route exact path="/projects/doomslayer" component={DoomSlayer} />
         <Route exact path="/projects/piston" component={Piston} />
         <Route exact path="/projects/sumorobot" component={SumoRobot} />
