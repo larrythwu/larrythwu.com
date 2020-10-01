@@ -104,7 +104,7 @@ export default function Projects() {
           <p className="card-text">
             Nevigation software written in C++, run on Linux Ubuntu. Features
             live weather report (DarkSky API), dark mode, search by name or
-            address, step-by-step nevigation to destination.
+            address, step-by-step nevigation guidance.
           </p>
           <a href="/projects/mymap" class="btn btn-primary">
             More Detail
@@ -150,8 +150,8 @@ export default function Projects() {
           <p className="tools">C, ARMv7 assembly, FPGA</p>
           <p className="card-text">
             A two-player arcade game written in C and compiled to ARM assembly.
-            The game is run on an ARMv7 DE1-SoC board, controlled by the PS/2
-            keyboard, and displayed on a VGA.å
+            The game is run on an ARMv7 DE1-SoC board, controlled by PS/2
+            keyboard, and displayed on a VGA.
           </p>
           <a href="projects/doomslayer" class="btn btn-primary">
             More Detail
@@ -219,8 +219,8 @@ export default function Projects() {
           <h5 className="card-title">Mechanical Piston</h5>
           <p className="tools">Machining</p>
           <p className="card-text">
-            Machined from skretch as part of the traininf for the Basic
-            Machining Certificate course at George Brown College
+            Final product from the Basic Machining Certificate course at George
+            Brown College
           </p>
           <a href="/projects/piston" class="btn btn-primary">
             More Detail

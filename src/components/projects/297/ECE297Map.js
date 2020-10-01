@@ -18,7 +18,7 @@ export class ECE297Map extends Component {
           src="https://www.youtube.com/embed/3EIzls7Gpo0"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowfullscreen="true"
         ></iframe>
         <img className="mymap" alt="dark mode" src={MyMap} />
         <img className="mymap" alt="live weather" src={LiveWeather} />
