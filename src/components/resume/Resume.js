@@ -6,15 +6,12 @@ export default function Resume() {
     <div className="Resume">
       <h3 className="title">Highlights</h3>
       <ul>
-        <li>3.9 cGPA, 90+ average for all second year ECE courses</li>
+        <li>3.9 cGPA and 90+ average for all second-year ECE courses</li>
+        <li>Proficient in web development (React.js, Node.js) and C/C++</li>
         <li>
-          Experienced in web development: individually developed a fully
-          functional full stack MERN (MongoDB, Express.js, React.js, Node.js)
-          app with user authentication{" "}
-        </li>
-        <li>
-          Co-authored an academic paper with Prof. Li Qian during summer
-          research intership
+          Co-authoring an academic paper at the University of Toronto with Prof.
+          Li Qian and Dr. Eric Zhu about a machine learning approach to
+          interpret and processing quantum experiment results
         </li>
       </ul>
 
@@ -34,13 +31,7 @@ export default function Resume() {
           />
           <a>Python</a>
         </div>
-        <div className="skill">
-          <img
-            alt=""
-            src="https://img.icons8.com/color/480/000000/c-sharp-logo.png"
-          />
-          <a>ASP.NET C#</a>
-        </div>
+
         <div className="skill">
           <img
             alt=""
@@ -55,6 +46,7 @@ export default function Resume() {
           />
           <a>Node.js</a>
         </div>
+
         <div className="skill">
           <img
             alt=""
@@ -62,12 +54,21 @@ export default function Resume() {
           />
           <a>MongoDB Atlas</a>
         </div>
+
         <div className="skill">
           <img
             alt=""
-            src="https://img.icons8.com/ios-filled/500/000000/mysql-logo.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/768px-Unofficial_JavaScript_logo_2.svg.png"
           />
-          <a>MySQL</a>
+          <a>JavaScript</a>
+        </div>
+
+        <div className="skill">
+          <img
+            alt=""
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Arm_logo_2017.svg/400px-Arm_logo_2017.svg.png"
+          />
+          <a>ARM Assembly</a>
         </div>
       </div>
       <h3 className="title">Education</h3>
@@ -78,52 +79,42 @@ export default function Resume() {
       </pre>
 
       <pre>
-        <strong className="resume">George Brown College</strong>{" "}
-        <strong>Basic Machining Certificate</strong> 2018
-      </pre>
-
-      <pre>
         <strong className="resume">Coursera</strong>{" "}
         <strong>Neural Networks and Deep Learning Certificate</strong> 2020
       </pre>
 
+      <pre>
+        <strong className="resume">George Brown College</strong>{" "}
+        <strong>Basic Machining Certificate</strong> 2018
+      </pre>
       <h3 className="title">Work Experience</h3>
       <pre>
         <strong className="resume">Prof. Li Qian Research Group</strong>{" "}
-        <strong>Research Intern</strong> 2020 ~ present
+        <strong>Student Researcher</strong> 2020 ~ present
       </pre>
       <ul>
         <li>
-          Developed machine learning algorithm using scikit-learn python library
-          and trained the model with simulated experimental data.{" "}
+          Used machine learning (scikit-learn python library) and satistical
+          methods to process experimental data in the field of quantum physics{" "}
         </li>
         <li>
           Wrote weekly report and monthly presentation updating the group
           members on the progress of the research project
         </li>
         <li>
-          Praised by Prof. Qian for my initiativeness and effectiveness in an
-          online workplace{" "}
+          Working on an academic paper with Prof. Qian and one of her graduate
+          students that summarizes the work we have done in the past summer{" "}
         </li>
       </ul>
 
       <pre>
         <strong className="resume">Mainly Mac</strong>{" "}
-        <strong>Computer Technician</strong> 2017 ~ 2018
+        <strong>Computer Technician</strong> 2018 ~ 2019
       </pre>
       <ul>
-        <li>
-          Repaired over 300 malfunctioning Apple computers, commended for
-          excellent technical abilities and high initiative
-        </li>
-        <li>
-          Kept track of inventory information using internal software,
-          demonstrated outstanding organization skills
-        </li>
-        <li>
-          Communicated with customers to troubleshoot their computer, received
-          customer feedback as a good listener and timely problem solver
-        </li>
+        <li>Repaired over 300 malfunctioning computers</li>
+        <li>Kept track of inventory information using company software</li>
+        <li>Communicated with customers to troubleshoot their computers</li>
       </ul>
 
       <h3 className="title">Extracurricular</h3>
@@ -132,10 +123,10 @@ export default function Resume() {
       </pre>
       <ul>
         <li>
-          Built an automated robot using Arduino that can sense its compoent and
+          Built an automated robot using Arduino that can sense its opponent and
           push it out of the designated area
         </li>
-        <li>Used Fusion360 to 3D print the body of the robot</li>
+        <li>Used Fusion360 to design and 3D print the body of the robot</li>
       </ul>
 
       <pre>

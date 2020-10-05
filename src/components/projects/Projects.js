@@ -16,9 +16,7 @@ export default function Projects() {
         </div>
         <div className="card-body">
           <h5 className="card-title">Issue Tracker</h5>
-          <p className="tools">
-            React.js, Express.js, MongoDB, User Authentication, JavaScript
-          </p>
+          <p className="tools">React.js, Express.js, MongoDB, JavaScript</p>
           <p className="card-text">
             Online issue tracking application with user authentication, account
             synchronization.
@@ -45,7 +43,7 @@ export default function Projects() {
         </div>
         <div className="card-body">
           <h5 className="card-title">Handwritten Digit Recognition</h5>
-          <p className="tools">Tensorflow.js React.js, JavaScript</p>
+          <p className="tools">Tensorflow.js, React.js, JavaScript</p>
           <p className="card-text">
             Training a TensorFlow.js model in real-time that can recognize the
             digit that is drawn on the canvas.
@@ -103,8 +101,8 @@ export default function Projects() {
           <p className="tools">C++, Linux Ubuntu </p>
           <p className="card-text">
             Nevigation software written in C++, run on Linux Ubuntu. Features
-            live weather report (DarkSky API), dark mode, search by name or
-            address, step-by-step nevigation guidance.
+            include live weather report (DarkSky API), dark mode, search bar,and
+            step-by-step nevigation guidance.
           </p>
           <a href="/projects/mymap" class="btn btn-primary">
             More Detail
@@ -150,7 +148,7 @@ export default function Projects() {
           <p className="tools">C, ARMv7 assembly, FPGA</p>
           <p className="card-text">
             A two-player arcade game written in C and compiled to ARM assembly.
-            The game is run on an ARMv7 DE1-SoC board, controlled by PS/2
+            The game is run on an ARMv7 DE1-SoC board, controlled by a PS/2
             keyboard, and displayed on a VGA.
           </p>
           <a href="projects/doomslayer" class="btn btn-primary">
@@ -174,8 +172,8 @@ export default function Projects() {
           <p className="card-text">
             Simulate the traffic lights at an intersection using DE1-SoC FPGA
             and a PS/2 keyboard. The logic is written in Verilog and the LEDs
-            are directly plugged into the FPGA general purpose pins, the
-            keyboard acts as the pedestrian call button.
+            are controlled by the FPGA general purpose pins, the keyboard acts
+            as the pedestrian call button.
           </p>
           <a href="/projects/trafficlight" class="btn btn-primary">
             More Detail
@@ -196,9 +194,9 @@ export default function Projects() {
           <h5 className="card-title">3D printed Sumo Robot</h5>
           <p className="tools">Arduino, Fusion360</p>
           <p className="card-text">
-            Built for Sumo Robotics Club at U of T. The sensors and motors are
-            controlled by Arduino and the body is designed in Fusion360 and 3D
-            printed.
+            Built for the Sumo Robotics Club at U of T. The sensors and motors
+            are controlled by Arduino and the body is designed in Fusion360 and
+            3D printed.
           </p>
           <a href="/projects/sumorobot" class="btn btn-primary">
             More Detail
