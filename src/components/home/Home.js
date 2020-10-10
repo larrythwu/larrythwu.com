@@ -12,21 +12,20 @@ export default function Home() {
           of Toronto. In my leisure time, I am a fervent <strong>reader</strong>
           , a <strong>painter</strong>, a <strong>photographer</strong>, a{" "}
           <strong>robotic enthusiast</strong>, and a{" "}
-          <strong>full stack developer</strong>. I was in the Sumo Robotic Club
-          at U of T, you can check out my 3D printed Sumo fighter as well as the
-          web applications that I have built in the "Projects" section; and my
-          other works in "Paintings", and "Photography".
+          <strong>passionate programmer</strong>. You can check out my past
+          projects in the "Projects" section; and my other works in "Paintings",
+          and "Photography".
         </h4>
 
         <h4 className="bio">
-          I have a strong background in <strong>web development</strong> as
-          demonstrated in my projects. Specifically, I am skilled in{" "}
-          <strong>React.js</strong> as the frontend and <strong>Node.js</strong>
-          , <strong>MongoDB</strong> as the backend. Moreover, I have achieved a{" "}
-          <strong>3.9cGPA</strong> and <strong>90+ average</strong> in all
-          second-year ECE courses which range from coding (
-          <strong>C, C++, ARM assembly</strong>) to circuitry (
-          <strong>Verilog</strong>).
+          I have a strong background in <strong>C++/C</strong> and{" "}
+          <strong>web development</strong> as demonstrated in my projects.
+          Specifically, I am experienced in <strong>React.js</strong> as the
+          frontend and <strong>Node.js</strong>, <strong>MongoDB</strong> as the
+          backend. Moreover, I have achieved a <strong>3.9/4.0 GPA</strong> and{" "}
+          <strong>90+ average</strong> for all second-year ECE courses which
+          range from software development (<strong>C, C++</strong>) to computer
+          architecture (<strong>ARM assembly, Verilog</strong>).
         </h4>
 
         <h4 className="bio">
@@ -45,9 +44,12 @@ export default function Home() {
           process and interpret experimental data in the field of quantum
           physics. Currently, I am working on a paper with one of her students
           that summarizes the work we have done in the past summer. Furthermore,
-          I am working on an online issue/bug tracker software (check it out in
-          the "Project" section) that can hopefully replace the old one that is
-          used in ECE297, one of the software courses that I took last year.
+          I am working on an{" "}
+          <a className="link" href="bugtrackr.com">
+            online issue/bug tracker software
+          </a>{" "}
+          that can hopefully replace the old one that is used in ECE297, one of
+          the software courses that I took last year.
         </h4>
       </div>
       <img

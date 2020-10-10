@@ -6,8 +6,11 @@ export default function Resume() {
     <div className="Resume">
       <h3 className="title">Highlights</h3>
       <ul>
-        <li>3.9 cGPA and 90+ average for all second-year ECE courses</li>
-        <li>Proficient in web development (React.js, Node.js) and C/C++</li>
+        <li>3.9/4.0 GPA and 90+ average for all second-year ECE courses</li>
+        <li>
+          Proficient in C/C++, Python, JavaScript, React, familiar with AWS EC2
+          (Ubuntu)
+        </li>
         <li>
           Co-authoring an academic paper at the University of Toronto with Prof.
           Li Qian and Dr. Eric Zhu about a machine learning approach to
@@ -94,16 +97,16 @@ export default function Resume() {
       </pre>
       <ul>
         <li>
-          Used machine learning (scikit-learn python library) and satistical
-          methods to process experimental data in the field of quantum physics{" "}
+          Wrote machine learning programs using the scikit-learn python library
+          to process experimental data{" "}
         </li>
         <li>
-          Wrote weekly report and monthly presentation updating the group
-          members on the progress of the research project
+          Operated photonics equipment in the laboratory and wrote MATLAB code
+          to automate the experiment
         </li>
         <li>
-          Working on an academic paper with Prof. Qian and one of her graduate
-          students that summarizes the work we have done in the past summer{" "}
+          Presented weekly reports and monthly presentations to the research
+          group about the progress of the research project
         </li>
       </ul>
 
