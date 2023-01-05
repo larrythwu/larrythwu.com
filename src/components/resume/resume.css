@@ -14,9 +14,9 @@ pre {
   text-align: left;
   max-width: 70em;
 }
+
 .title{
   text-decoration:  underline;
-
 }
 
 .resume{
@@ -34,10 +34,18 @@ pre {
   text-align: left;
 }
 
+.img{
+  margin-left: 10px;
+  width: 30px;
+}
 strong{
   text-align: left;
 }
 
 ul{
   text-align: left;
+}
+
+.subsection{
+  font-weight: bold;
 }
