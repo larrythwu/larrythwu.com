@@ -15,6 +15,7 @@ import SumoRobot from "./components/projects/carousel/SumoRobot";
 import TrafficLight from "./components/projects/carousel/TrafficLight";
 import ECE297Map from "./components/projects/297/ECE297Map";
 import DoomSlayer from "./components/projects/DoomSlayer/DoomSlayer";
+import MiniOS from "./components/projects/mini_OS/MiniOS"
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/projects/piston" component={Piston} />
         <Route exact path="/projects/sumorobot" component={SumoRobot} />
         <Route exact path="/projects/trafficlight" component={TrafficLight} />
+        <Route exact path="/projects/miniOS" component={MiniOS} />
       </BrowserRouter>
     </div>
   );

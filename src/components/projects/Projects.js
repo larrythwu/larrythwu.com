@@ -11,6 +11,32 @@ export default function Projects() {
             alt=""
             alt=""
             className="card-img-top"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/GNOME_Terminal_icon_2019.svg/1200px-GNOME_Terminal_icon_2019.svg.png"
+          />
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Mini OS</h5>
+          <p className="tools">C, x86 Assembly</p>
+          <p className="card-text">
+          Built a multi-threaded kernel and successfully tested on the QEMU x86 emulator.
+          </p>
+          <a
+            href="/projects/miniOS"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            Go to Webpage
+          </a>
+        </div>
+        <div class="card-footer text-muted">Last updated 2 days ago</div>
+      </div>
+
+      <div className="card">
+        <div className="img-container">
+          <img
+            alt=""
+            alt=""
+            className="card-img-top"
             src="https://cdn.worldvectorlogo.com/logos/google-issue-tracker.svg"
           />
         </div>
@@ -18,9 +44,7 @@ export default function Projects() {
           <h5 className="card-title">Issue Tracker</h5>
           <p className="tools">React.js, Express.js, MongoDB, JavaScript</p>
           <p className="card-text">
-            Online issue tracking application with user authentication, account
-            synchronization. Still in progress, aim to replace the old issue
-            tracker used in ECE297, a second-year software class I took.
+            Online to-do list application with user authentication.
           </p>
           <a
             href="https://www.bugtrackr.com"
@@ -72,7 +96,7 @@ export default function Projects() {
           <p className="tools">Tensorflow.js, React.js, JavaScript</p>
           <p className="card-text">
             A web application that trains a machine learning model in real time
-            with the MNIST database and TensorFlow that can recognize the digit
+            with the MNIST database that can recognize the digit
             drawn on the canvas.
           </p>
           <a
@@ -212,7 +236,7 @@ export default function Projects() {
         <div class="card-footer text-muted">Last updated 1 year ago</div>
       </div>
 
-      <div className="card">
+      {/* <div className="card">
         <div className="img-container">
           <img
             alt=""
@@ -232,7 +256,7 @@ export default function Projects() {
           </a>
         </div>
         <div class="card-footer text-muted">Last updated 1 year ago</div>
-      </div>
+      </div> */}
     </div>
   );
 }

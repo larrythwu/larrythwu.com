@@ -1,6 +1,20 @@
 import React from "react";
 import "./resume.css";
 
+import CPP from "./images/c-plus-plus-logo.png"
+import Java from "./images/java_icon.png"
+import Rust from "./images/rust_icon.png"
+import Python from "./images/python.png"
+import Perl from "./images/perl_icon.webp"
+import REACT from "./images/react_icon.png"
+import Cuda from "./images/cuda_icon.webp"
+import Docker from "./images/docker_icon.webp"
+import LLVM from "./images/llvm_icon.png"
+import Node from "./images/node_js_icon.png"
+import PSQL from "./images/psql_icon.png"
+import UOFT from "./images/uoft_icon.png"
+import AMD from "./images/amd_icon.png"
+
 export default function Resume() {
   return (
     <div className="Resume">
@@ -24,42 +38,49 @@ export default function Resume() {
         <div className="skill">
           <img
             alt=""
-            src="https://img.icons8.com/color/480/000000/c-plus-plus-logo.png"
+            src={CPP}
           />
           <a>C&C++</a>
         </div>
         <div className="skill">
           <img
             alt=""
-            src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+            src={Java}
           />
           <a>Java</a>
         </div>
         <div className="skill">
           <img
             alt=""
-            src="https://b.thumbs.redditmedia.com/RGBpWy1J00g1sxC71l84oSYnZpvh5DOGUhcbtKz9QcE.png"/>
+            src={Rust}/>
           <a>Rust</a>
         </div>
         <div className="skill">
           <img
             alt=""
-            src="https://img.icons8.com/color/480/000000/python.png"
+            src={Python}
           />
           <a>Python</a>
+        </div>
+        <div className="skill">
+          <img
+            alt=""
+            src={Perl}
+          />
+          <a>Perl</a>
         </div>
         <h4 className="subsection">Tools & Frameworks</h4>
         <div className="skill">
           <img
             alt=""
-            src="https://img.icons8.com/plasticine/400/000000/react.png"
+            src={REACT}
           />
           <a>React</a>
         </div>
         <div className="skill">
           <img
             alt=""
-            src="https://img.icons8.com/windows/512/000000/node-js.png"
+            src={Node}
           />
           <a>Node.js</a>
         </div>
@@ -67,7 +88,7 @@ export default function Resume() {
         <div className="skill">
           <img
             alt=""
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png"
+            src={PSQL}
           />
           <a>PostgreSQL</a>
         </div>
@@ -75,21 +96,21 @@ export default function Resume() {
         <div className="skill">
           <img
             alt=""
-            src="https://llvm.org/img/DragonMedium.png"          />
+            src={LLVM}          />
           <a>LLVM</a>
         </div>
 
         <div className="skill">
           <img
             alt=""
-            src="https://external-preview.redd.it/-iLQcSOsZPDL2WkDdAtnEm9kRDwLrvBWrWbsijxiMkQ.jpg?width=640&crop=smart&auto=webp&s=e207e3725ad92cdb744c3239e6555598d6c16541"          />
+            src={Cuda}          />
           <a>CUDA</a>
         </div>
 
         <div className="skill">
           <img
             alt=""
-            src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"/>
+            src={Docker}/>
             <a>Docker</a>
         </div>
 
@@ -98,9 +119,9 @@ export default function Resume() {
         <div className="skill">
           <img
             alt=""
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Utoronto_coa.svg/1200px-Utoronto_coa.svg.png"/>
+            src={UOFT}/>
             <strong>University of Toronto</strong>
-            <ul>Bachelor of Applied Science in Computer Engineering (3.7/4 CGPA)</ul>
+            <ul><strong>Bachelor of Applied Science in Computer Engineering (3.7/4 CGPA)</strong></ul>
             <ul>Relavent Courses: Computer Systems Programming, Parallel Programming, Distributed Systems, Data Structures
 and Algorithm, Operating System, Computer Architecture, Computer Networks</ul>
 
@@ -112,13 +133,13 @@ and Algorithm, Operating System, Computer Architecture, Computer Networks</ul>
       <pre>
         <strong>Design and Verification Engineer </strong> | 
         <img className="img"
-        src="https://companieslogo.com/img/orig/AMD-ee5b4684.png?t=1632720791"/>
+        src={AMD}/>
             AMD                     May 2020 ~ May 2021
       </pre>
       <ul>
         <li>
-        Built testbench components in C++ and System Verilog (UVM) for the GPU L1 cache, improving the functional
-verification coverage by 15%{" "}
+        Built testbench components in C++ and System Verilog (UVM) for the Navi31 GPU cache, improving the functional
+verification coverage of the L1 cache by 15%{" "}
         </li>
         <li>
         Debugged RTL code by investigating the simulation waveform, consistently recognized for analytic skills
@@ -133,12 +154,12 @@ in workflow efficiency
       <pre>
         <strong>Compiler Research Assistant</strong> | 
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Utoronto_coa.svg/1200px-Utoronto_coa.svg.png"/>
+            src={UOFT}/>
             University of Toronto, Prof. Mark Jeffrey                      May 2022 ~ Sep. 2022
       </pre>
       <ul>
         <li>
-        Upgraded the loop unrolling optimization for the compiler (<a className="title" href="https://ieeexplore.ieee.org/document/9138940">T4</a>) to LLVM12, achieving a 20% speedup on
+        Upgraded the loop unrolling optimization for the compiler (<a className="link" href="https://ieeexplore.ieee.org/document/9138940">T4</a>) to LLVM12, achieving a 20% speedup on
 SPEC-CPU2006 benchmarks than previously reported{" "}
         </li>
         <li>
@@ -154,7 +175,7 @@ on parallel constructs such as fork/join
       {/*-------------experience------------*/}
       <pre>
         <strong>ML Research Assistant</strong> | <img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Utoronto_coa.svg/1200px-Utoronto_coa.svg.png"/>
+            src={UOFT}/>
             University of Toronto, Prof. Li Qian                     May 2020 ~ May 2021
       </pre>
       <ul>
@@ -170,7 +191,7 @@ constraints in the lab environment
         Operated lab equipment using MATLAB to conduct photonic experiments
         </li>
       </ul>
-      <ul>Publication: <a className="title" href="https://ieeexplore.ieee.org/document/9572926">Machine Learning Derived Entanglement Witness</a> <strong>L. Wu</strong>, E. Zhu, and L. Qian. OSA technical digest</ul>
+      <ul>Publication: <a className="link" href="https://ieeexplore.ieee.org/document/9572926">Machine Learning Derived Entanglement Witness</a> <strong>L. Wu</strong>, E. Zhu, and L. Qian. OSA technical digest</ul>
 
     </div>
   );
