@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30b183e63f6f9a0df74690f5ea86af5e",
+    "revision": "b70ce0f3471afbd074040b5ea51ded65",
     "url": "/larrythwu.com/index.html"
   },
   {
-    "revision": "6a3783604ee0baa67c91",
+    "revision": "3ac0c2e3fb11f765d7f2",
     "url": "/larrythwu.com/static/css/main.7ce91f25.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/larrythwu.com/static/js/2.b388090c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a3783604ee0baa67c91",
-    "url": "/larrythwu.com/static/js/main.f62ab8ef.chunk.js"
+    "revision": "3ac0c2e3fb11f765d7f2",
+    "url": "/larrythwu.com/static/js/main.8171b036.chunk.js"
   },
   {
     "revision": "e306b55cd532f22cc9be",
