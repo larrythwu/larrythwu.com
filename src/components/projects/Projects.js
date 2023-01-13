@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./projects.css";
+import Star from "./star.png"
 
 export default function Projects() {
   return (
@@ -15,10 +16,10 @@ export default function Projects() {
           />
         </div>
         <div className="card-body">
-          <h5 className="card-title">Mini OS</h5>
+          <h5 className="card-title"><img style={{"width": "2rem"}}src={Star}/>Mini OS</h5>
           <p className="tools">C, x86 Assembly</p>
           <p className="card-text">
-          Built a multi-threaded kernel and successfully tested on the QEMU x86 emulator.
+          A multi-threaded kernel that can run on a QEMU x86 emulator.
           </p>
           <a
             href="/projects/miniOS"
@@ -41,13 +42,13 @@ export default function Projects() {
           />
         </div>
         <div className="card-body">
-          <h5 className="card-title">Issue Tracker</h5>
+          <h5 className="card-title"><img style={{"width": "2rem"}}src={Star}/>Issue Tracker</h5>
           <p className="tools">React.js, Express.js, MongoDB, JavaScript</p>
           <p className="card-text">
-            Online to-do list application with user authentication.
+            A full-stack online to-do list application with user authentication.
           </p>
           <a
-            href="https://www.bugtrackr.com"
+            href="https://issuetracker.herokuapp.com/"
             target="_blank"
             class="btn btn-primary"
           >
@@ -63,70 +64,15 @@ export default function Projects() {
             alt=""
             alt=""
             className="card-img-top"
-            src="https://images-na.ssl-images-amazon.com/images/I/514JSuo0YrL.png"
-          />
-        </div>
-        <div className="card-body">
-          <h5 className="card-title">My Map</h5>
-          <p className="tools">C++, Linux Ubuntu </p>
-          <p className="card-text">
-            Navigation software written in C++ runs on Linux Ubuntu. The data is
-            loaded from the OpenStreetMap API and displayed using the EzGL
-            library. Features include live weather report (DarkSky API), dark
-            mode, location searching, and step-by-step navigation guidance.
-          </p>
-          <a href="/projects/mymap" class="btn btn-primary">
-            More Detail
-          </a>
-        </div>
-        <div class="card-footer text-muted">Last updated 1 year ago</div>
-      </div>
-
-      <div className="card">
-        <div className="img-container">
-          <img
-            alt=""
-            alt=""
-            className="card-img-top"
-            src="https://miro.medium.com/max/432/1*b4otA55Us-hoI57lqUfplA.png"
-          />
-        </div>
-        <div className="card-body">
-          <h5 className="card-title">Handwritten Digit Recognition</h5>
-          <p className="tools">Tensorflow.js, React.js, JavaScript</p>
-          <p className="card-text">
-            A web application that trains a machine learning model in real time
-            with the MNIST database that can recognize the digit
-            drawn on the canvas.
-          </p>
-          <a
-            href="https://larrythwu.github.io/digit_recognizer/"
-            target="_blank"
-            class="btn btn-primary"
-          >
-            Go to Webpage
-          </a>
-        </div>
-        <div class="card-footer text-muted">Last updated 2 months ago</div>
-      </div>
-
-      <div className="card">
-        <div className="img-container">
-          <img
-            alt=""
-            alt=""
-            className="card-img-top"
             src="https://cdn.vox-cdn.com/thumbor/pOMbzDvdEWS8NIeUuhxp23wi_cU=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19700731/googlemaps.png"
           />
         </div>
         <div className="card-body">
-          <h5 className="card-title">Interactive Path Finding</h5>
+          <h5 className="card-title"><img style={{"width": "2rem"}}src={Star}/>Interactive Path Finding</h5>
           <p className="tools">React.js, JavaScript, Dijkstra's algorithm</p>
           <p className="card-text">
             A web application that uses the Dijkstra's algorithm to find the
-            shortest path from the start (green) to the destination (red)
-            through user-defined obstacles. You can move the green, red squares
-            around; drag your mouse over the gray squares to add obstacles :)
+            shortest path from the source to the destination.
           </p>
           <a
             href="https://larrythwu.github.io/interactive_path_finding/"
@@ -164,6 +110,59 @@ export default function Projects() {
           </a>
         </div>
         <div class="card-footer text-muted">Last updated 1 months ago</div>
+      </div>
+
+      <div className="card">
+        <div className="img-container">
+          <img
+            alt=""
+            alt=""
+            className="card-img-top"
+            src="https://images-na.ssl-images-amazon.com/images/I/514JSuo0YrL.png"
+          />
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">My Map</h5>
+          <p className="tools">C++, Linux Ubuntu </p>
+          <p className="card-text">
+            Navigation software written in C++ runs on Linux Ubuntu. The data is
+            loaded from the OpenStreetMap API and displayed using the EzGL
+            library. Features include live weather report (DarkSky API), dark
+            mode, location searching, and step-by-step navigation guidance.
+          </p>
+          <a href="/projects/mymap" class="btn btn-primary">
+            More Detail
+          </a>
+        </div>
+        <div class="card-footer text-muted">Last updated 1 year ago</div>
+      </div>
+      
+      <div className="card">
+        <div className="img-container">
+          <img
+            alt=""
+            alt=""
+            className="card-img-top"
+            src="https://miro.medium.com/max/432/1*b4otA55Us-hoI57lqUfplA.png"
+          />
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Handwritten Digit Recognition</h5>
+          <p className="tools">Tensorflow.js, React.js, JavaScript</p>
+          <p className="card-text">
+            A web application that trains a machine learning model in real time
+            with the MNIST database that can recognize the digit
+            drawn on the canvas.
+          </p>
+          <a
+            href="https://larrythwu.github.io/digit_recognizer/"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            Go to Webpage
+          </a>
+        </div>
+        <div class="card-footer text-muted">Last updated 2 months ago</div>
       </div>
 
       <div className="card">

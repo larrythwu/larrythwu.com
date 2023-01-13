@@ -10,7 +10,7 @@ export class MiniOS extends Component {
   render() {
     return (
       <div className="DescriptionContainer" style={{"padding-bottom": "10rem"}}>
-        <h3>
+        <h3 style={{"margin-left": "0"}}>
           <img style={{"width": "3rem"}}src="https://camo.githubusercontent.com/31cfcbf671dc6ffb3bb73273368098624064cd7b1b98a9f17df95e7a667baad2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64612f474e4f4d455f5465726d696e616c5f69636f6e5f323031392e7376672f3132303070782d474e4f4d455f5465726d696e616c5f69636f6e5f323031392e7376672e706e67" />{" "}
           Mini OS
         </h3>
@@ -135,6 +135,7 @@ export class MiniOS extends Component {
             <li>GDB: a source-level debugger that can be used with the Qemu emulator</li>
          </ul>
         </p>
+        
       </div>
     );
   }
